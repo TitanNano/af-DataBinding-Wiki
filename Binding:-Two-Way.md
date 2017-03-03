@@ -5,7 +5,9 @@
 
 ## Usage 
 ```HTML
-<div bind-model="view.text" bind-model-event="changeEvent:elementProperty:eventProperty"></div>
+<div bind-model="view.text" 
+     bind-model-event="changeEvent:elementProperty:eventProperty">
+</div>
 ```
 
 The primary attribute of the binding is `bind-model`. If the property is present, a binding will be created. 
@@ -13,7 +15,9 @@ However, the helper attribute `bind-model-event` is also required. It specifies 
 This makes the two-way binding the currently most complex binding in this framework.
 
 ```HTML
-<div bind-model="view.text" bind-model-event="change:textContent:target.textContent"></div>
+<div bind-model="view.text" 
+     bind-model-event="change:textContent:target.textContent">
+</div>
 ```
 
 ## Quirks
