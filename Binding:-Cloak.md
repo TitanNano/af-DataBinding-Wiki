@@ -1,6 +1,6 @@
 | Binding Name | Expression Type | Value Type |
 |--------------|-----------------|------------|
-| bind-model   | none            | null       |
+| bind-cloak   | none            | null       |
 
 
 Hides an element until the first render cycle has been completed.
