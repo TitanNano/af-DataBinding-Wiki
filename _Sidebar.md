@@ -1,9 +1,9 @@
 * Bindings
-  * Auto
+  * [Auto](https://github.com/TitanNanoDE/af-DataBinding/wiki/Binding:-Auto)
   * Enabled
-  * Attribute
+  * [Attribute](https://github.com/TitanNanoDE/af-DataBinding/wiki/Binding:-Attribute)
   * Class
-  * Cloak
+  * [Cloak](https://github.com/TitanNanoDE/af-DataBinding/wiki/Binding:-Cloak)
   * Element To Scope
   * HTML
   * If
