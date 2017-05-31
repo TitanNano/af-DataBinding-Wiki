@@ -10,6 +10,7 @@
   * Style
   * Repeat
   * [Two-Way](https://github.com/TitanNanoDE/af-DataBinding/wiki/Binding:-Two-Way)
+  * Animation
 
 * Traits
   * [ViewController](https://github.com/TitanNanoDE/af-DataBinding/wiki/Trait:-ViewController)
