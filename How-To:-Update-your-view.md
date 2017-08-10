@@ -45,3 +45,32 @@ const myView = {
 //....
 };
 ```
+
+## Automatic Updates
+Until now this seems a bit of a hassle. Call the update function every time we change something? while it is quite Possible to do so, you might want the framework to automatically update. Event handlers automatically update the view once they are done, but more on that later.
+
+To track changes on your data, it is useful to use `Application Frame`s `DataStorage`.
+
+```JavaScript
+import DataStorage from 'application-frame/core/DataStorage';
+
+const view = {
+
+    data: Object.create(DataStorage).constructor();
+
+    constructor() {
+        super.constructor();
+        this.data.when(this.scope.update);
+    },
+
+    updateOurStuff() {
+        this.data.fill({ stuff: 13 });
+    },
+
+    __proto__: ViewController,
+};
+```
+
+How does this work? `DataStorage.when()` accepts a callback function which is called every time we put data into the storage. Here we simply pluck our update function in there. When we now call the `updateOurStuff()` function, we fill new data into the storage and this will trigger our view to update. 
+
+As long as we register with all data storages our view requires, it will be updated whenever some data changes.
