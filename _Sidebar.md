@@ -17,3 +17,6 @@
 
 * Prototypes
 
+* How To
+  * [Getting Started](https://github.com/TitanNanoDE/af-DataBinding/wiki/How-To:-Getting-Started-with-DataBinding)
+  * [Update Your View](https://github.com/TitanNanoDE/af-DataBinding/wiki/How-To:-Update-your-view)
