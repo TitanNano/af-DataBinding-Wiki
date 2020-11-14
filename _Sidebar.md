@@ -9,7 +9,7 @@
   * If
   * Style
   * Repeat
-  * [Two-Way](https://github.com/TitanNanoDE/af-DataBinding/wiki/Binding:-Two-Way)
+  * ~~[Two-Way](https://github.com/TitanNanoDE/af-DataBinding/wiki/Binding:-Two-Way)~~ (DEPRECATED)
   * Animation
 
 * Traits
