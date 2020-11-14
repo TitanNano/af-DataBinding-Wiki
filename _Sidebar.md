@@ -1,4 +1,5 @@
 * Bindings
+  * [Events](https://github.com/TitanNanoDE/af-DataBinding/wiki/Binding:-Event(s))
   * [Auto](https://github.com/TitanNanoDE/af-DataBinding/wiki/Binding:-Auto)
   * Enabled
   * [Attribute](https://github.com/TitanNanoDE/af-DataBinding/wiki/Binding:-Attribute)
